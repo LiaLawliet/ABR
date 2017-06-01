@@ -1,0 +1,45 @@
+@media all and (max-width:1589px){
+
+}
+
+@media all and (min-width: 1280px;){
+
+}
+
+@media all and (min-width: 1224px;) and (max-width:1279px){
+
+}
+
+
+@media all and (min-width:768px) and (max-width:1589px){
+	section.section{
+		height: 400px;
+		padding-top: 125px;
+	}
+}
+
+
+@media all and (max-width:1000px){
+	div.col-md-4{
+		margin-bottom: 0px 0px;
+		align-self: center;
+		width: 100%;
+		
+}
+
+}
+
+@media all and (min-width:430px){
+	section div.col-md-4:hover{
+	-moz-transform: scale(1.1, 1.1) !important;
+    -webkit-transform: scale(1.1, 1.1) !important;
+    transform: scale(1.1, 1.1) !important;
+    transition: .4s !important;
+	}
+}
+
+@media all and (max-width:430px){
+	section.section h1{
+		font-size: 17px !important;
+	}
+}

@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+	text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+/********HEADER*******/
+
+/*****Row 1*****/
+
+header nav li{
+	display: inline;
+}
+
+header{
+	background-color: #000000;
+}
+
+
+
+header nav li{
+	text-transform: uppercase;
+}
+
+header nav {
+    margin-top: 26px;
+}
+
+header nav ul{
+    margin-bottom: 26px;
+    margin-left: -40px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    padding: 26px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+header nav a.ins{
+	background-color: white;
+	color: #000000;
+	padding: 24px 25px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+header nav a:hover{
+	background-color: #ffffff;
+	color: #000000;
+	transition: .5s;
+}
+
+/**********FOOTER***********/
+
+/******Row 1*******/
+
+footer{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #000000;
+}
+
+div.social_network{
+	margin: 10px 30px;
+}
+
+i.social_net{
+	margin: 0px 22px 0px 0px;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 100%;
+	transition: all .7s ease;
+	font-size: 37px;
+}
+
+i.social_net:hover{
+	transform: rotate(360deg)
+}
+
+/*facebook*/
+div.social_network > a:nth-child(1) > i.social_net{
+	padding: 17px 25px 13px 24px;
+    color: #ffffff;
+    background-color: #000000;
+}
+div.social_network > a:nth-child(1) > i.social_net:hover{
+	color: #000000;
+	background-color: #ffffff;
+}
+/*twitter*/
+div.social_network > a:nth-child(2) > i.social_net{
+	padding: 16px 16px 15px 18px;
+	color: #ffffff;
+    background-color: #000000;
+}
+div.social_network > a:nth-child(2) > i.social_net:hover{
+	color: #000000;
+	background-color: #ffffff;
+}
+
+/******Row 2********/
+
+footer p{
+	color: #b1b1b1;
+	text-shadow: black 1px 1px 1px;
+	-moz-text-shadow: black 1px 1px 1px;
+	-webkit-text-shadow: black 1px 1px 1px; 
+}

@@ -1,0 +1,38 @@
+@media all and (min-width:1100px){
+	select{
+		display: none;
+	}
+	header div.select{
+		align-content: right;
+	} 
+}
+
+
+@media all and (max-width:1100px){
+	nav.nav2{
+		display: none;
+	}
+}
+
+
+@media all(min-width: 400px) and (max-width:767px){
+
+}
+
+@media all and (min-width:800px){
+	
+}
+
+@media all and (max-width:430px){
+	header img {
+		margin-top: 10px;
+	}
+	i.social_net{
+		font-size: 21px !important;
+	}
+	header .nav1{
+		display: none !important;
+	}
+}
+
+utiliser em au lien de px

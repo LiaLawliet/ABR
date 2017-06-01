@@ -1,0 +1,119 @@
+/********SECTION 1********/
+
+section.section1{
+	background-color: rgba(221, 221, 221, 0.56);
+    padding-bottom: 22px;
+}
+
+section.section1 div.row1{
+	padding: 30px 10px;
+}
+
+section.section1 div.row1 h3{
+	margin: 10px 0px;
+
+}
+
+section.section1 div.row1 .titre{
+	background-color: #2e6da4;
+    color: white;
+    border: 3px solid #2e6da4;
+    padding: 5px 8px;
+    border-radius: 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px;
+    transition: .5s;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section.section1 div.row1 .titre:hover{
+	background-color: white;
+    color: #2e6da4;
+    border: 3px solid #2e6da4;
+    transition: .5s;
+    padding: 5px 8px;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    cursor: pointer;
+}
+
+label{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+section.section1 div.row2 form.form{
+	display: none;
+}
+
+textarea{
+    margin-bottom: 30px;
+    height: 145px;
+    width: 390px;
+}
+
+section.section1 div.row2 #map {
+	margin-bottom: 23px;
+    width: 300px;
+    height: 300px;
+}
+
+.envoyer{
+    background-color: #2e6da4;
+    color: white;
+    border: 3px solid #2e6da4;
+    padding: 5px 8px;
+    border-radius: 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px;
+    font-size: 17px;
+    transition: .4s;
+    width: 110px;
+    text-align: center;
+}
+
+.envoyer:hover{
+    background-color: white;
+    color: #2e6da4;
+    border: 3px solid #2e6da4;
+    transition: .4s;
+    padding: 5px 8px;
+    border-radius: 18px 18px 18px;
+    -moz-border-radius: 18px 18px 18px;
+    -webkit-border-radius: 18px 18px 18px;
+}
+
+div.col-md-4{
+    font-size: 20px;
+    margin-top: 34px;
+}
+
+h4.cursus{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input, textarea{
+    border-radius: 25px 25px 25px;
+    -moz-border-radius: 25px 25px 25px;
+    -webkit-border-radius: 25px 25px 25px;
+    border: 3px solid #2e6da4;
+    outline: none;
+}
+
+div.col-md-4 ul {
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+.input{
+    padding: 8px 5px;
+}
+
+.envoyer a{
+    color: white;
+}

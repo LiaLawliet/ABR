@@ -1,0 +1,55 @@
+@media all and (max-width:1589px){
+	section.section p{
+		display: none;
+	}
+
+	section.section h1{
+		margin: 0px 0px;
+		text-align: center;
+	}
+}
+
+@media all and (min-width: 1280px;){
+
+}
+
+@media all and (min-width: 1224px;) and (max-width:1279px){
+
+}
+
+
+@media all and (min-width:768px) and (max-width:1589px){
+	section.section{
+		height: 400px;
+		padding-top: 125px;
+	}
+}
+
+
+@media all and (max-width:767px){
+	section.section{
+		padding-top: 65px;
+		height: 200px;
+	}
+
+	section.section h1{
+		font-size: 50px;
+	}
+}
+
+@media all and (max-width:399px){
+	section.section2 img{
+		width: 100% !important;
+	}
+
+	section.section3{
+		display: none;
+	}
+
+	section.section4 a{
+		font-size: 18px;
+	}
+	section.section{
+		padding-top: 40px;
+	}
+}
