@@ -41,13 +41,22 @@
                   <a href="index.html">Accueil</a>
                 </li>
                 <li>
-                  <a href="formations.html">Formations</a>
+                  <a href="services.html">Services proposés</a>
+                </li>
+                <li>
+                  <a href="travaux.html">Travaux réalisés</a>
                 </li>
                 <li>
                   <a href="contact.html">Contact</a>
                 </li>
               </ul>
             </nav>
+            <select class="form-control">
+              <option><a href="index.html">Acceuil</a></option>
+              <option><a href="services.html">Services proposés</a></option>
+              <option><a href="travaux.html">Travaux réalisés</a></option>
+              <option><a href="contact.html">Contact</a></option>
+            </select>
           </div>
         </div>
       </div>
@@ -58,10 +67,7 @@
     		<div class="row1">
     			<div class="col-md-12">
             <div class="titre long">
-    				  <h3 class="inscription">Inscription</h3>
-            </div>
-            <div class="titre long">
-    				  <h3 class="demande">Demande</h3>
+    				  <h3 class="demande">Envoyer un email</h3>
             </div>
     			</div>
     		</div>
@@ -84,42 +90,14 @@
 	    				<br/>
 	    				<textarea class="long" name="question" id="question"></textarea>
 	    				<br/>
-              <div class="long envoyer"">
-	    				 <a href="">Envoyer</a>
-              </div>
-	    			</form>
-	    			<form method="post" action="#" class="form2 form">
-	    				<label for="nom">Votre nom :</label>
-	    				<br/>
-	    				<input class="long input" type="text" name="nom" id="nom"  size="30"/>
-	    				<br/>
-	    				<label for="prenom">Votre prénom :</label>
-	    				<br/>
-	    				<input class="long input" type="text" name="prenom" id="prenom"  size="30"/>
-	    				<br/>
-	    				<label for="mail">Votre adresse email :</label>
-	    				<br/>
-	    				<input class="long input" type="mail" name="mail" id="mail"  size="30" placeholder="Ex : adresse@mail.com" />
-	    				<br/>
-	    				<h4 class="cursus">Cursus choisi :</h4>
-	    				<input type="radio" name="cursus" value="webdesigner" checked> Web Designer<br>
-						<input type="radio" name="cursus" value="graphiste"> Graphiste<br>
-						<input type="radio" name="cursus" value="ux-designer"> UX-Designer
-	    				<br/>
-	    				<label for="commentaire">Un commentaire ? :</label>
-	    				<br/>
-	    				<textarea class="long" name="commentaire" id="commentaire"></textarea>
-	    				<br/>
-	    				<div class="long envoyer"">
-                <a href="">Envoyer</a>
-              </div>
+              <a class="envoyer" href="">Envoyer</a>
 	    			</form>
     			</div>
     			<div class="col-md-4">
     				<aside>
     					<ul>
     						<li>01.02.03.04.05</li>
-    						<li>design.school@contact.com</li>
+    						<li>abr-renov@orange.fr</li>
     						<li>1 rue du Commerce, Colombes</li>
     					</ul>
     					<br/>
@@ -147,7 +125,7 @@
             </div>
             <br/>
             <p>
-            © Copyright 2017 - Design School Paris <a href="#" class="active">FR </a>
+            © Copyright 2017 - ABR Colombes <a href="#" class="active">FR </a>
               <a href="#">EN</a>
             </p>
           </div>
@@ -167,13 +145,8 @@
             });
         </script>
 <script>
-$('.inscription').click(function(){
-	$('.form2').show('slow');
-	$('.form1').hide('slow');
-});
 $('.demande').click(function(){
 	$('.form1').show('slow');
-	$('.form2').hide('slow');
 });
 
 </script>
