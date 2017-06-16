@@ -7,23 +7,22 @@ section.section{
 	width: 100%;
 	height: 500px;
 	color: white;
-    text-shadow: black -5px 5px 6px;
-   	-moz-text-shadow: black -5px 5px 6px;
-	-webkit-text-shadow: black -5px 5px 6px;
+    text-shadow: black -4px -1px 3px;
+   	-moz-text-shadow: black -4px -1px 3px;
+	-webkit-text-shadow: black -4px -1px 3px;
 }
 
-h1{
-	font-size: 100px;
-	margin-top: 80px;
-	margin-left: 300px;
+h1 {
+    font-size: 100px;
+    margin-top: 130px;
+    margin-left: 300px;
 }
 
-section.section p{
-	font-size: 40px;
-	margin-top: 109px;
-	margin-left: 656px;
+section.section p {
+    font-size: 40px;
+    margin-top: 130px;
+    margin-left: 120px;
 }
-
 /*********SECTION 1**********/
 
 section.section1{
@@ -108,6 +107,12 @@ section.section3 {
 	padding: 25px 10px;
 }
 
+video{
+	background-color: white;
+	width: 50%;
+	margin-top: 30px;
+}
+
 
 
 /**********SECTION 4***********/
@@ -122,8 +127,12 @@ section.section4 p{
 	font-size: 18px;
 }
 
-section.section4 .col-md-6 {
-    width: 47%;
+section.section4 .col-md-8 {
+    width: 64%;
+}
+
+.col-md-2 {
+    width: 15.666667%;
 }
 
 section.section4 .right{
@@ -140,4 +149,38 @@ section.section4 .left{
 section.section4 input.envoyer{
 	margin-top: 10px;
 	margin-left: 80px;
+}
+
+/**********SECTION 5***********/
+
+section.section5 {
+	background-color: rgba(221, 221, 221, 0.56);
+	padding: 25px 10px;
+}
+
+section.section5 i{
+	font-size: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+section.section5 p{
+	text-align: justify;
+	font-size: 16px;
+}
+
+section.section5 .first{
+	margin-bottom: 35px;
+}
+
+section.section5 .right{
+	margin-left: 20px;
+	font-size: 50px;
+}
+
+section.section5 .left{
+	width: 47%;
+	margin-right: 20px;
+	text-align: right;
+	font-size: 50px;
 }

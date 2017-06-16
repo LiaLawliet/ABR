@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Design School - Contact</title>
+    <title>ABR - Travaux réalisés</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -13,8 +13,8 @@
     <!-- MY CSS -->
     <link type="text/css" rel="stylesheet" href="css/queries.css"/>
     <link type="text/css" rel="stylesheet" href="css/global.css"/>
-    <link type="text/css" rel="stylesheet" href="css/formations.css"/>
-    <link type="text/css" rel="stylesheet" href="css/formations_queries.css"/>
+    <link type="text/css" rel="stylesheet" href="css/travaux.css"/>
+    <link type="text/css" rel="stylesheet" href="css/travaux_queries.css"/>
 
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"/>
@@ -48,12 +48,15 @@
                 </li>
               </ul>
             </nav>
-            <select class="form-control">
-              <option><a href="index.html">Acceuil</a></option>
-              <option><a href="services.html">Services proposés</a></option>
-              <option><a href="travaux.html">Travaux réalisés</a></option>
-              <option><a href="contact.html">Contact</a></option>
-            </select>
+            <div class="dropdown">
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">MENU</button>
+              <ul class="dropdown-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="services.html">Services proposés</a></li>
+                <li><a href="travaux.html">Travaux réalisés</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -77,7 +80,7 @@
     <section class="section2">
       <div class="container-fluid">
         <div class="row1">
-          <div class="col-md-6">
+          <div class="col-md-6 text-center">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
               <!-- Indicators -->
               <ol class="carousel-indicators">
@@ -146,15 +149,15 @@
         <!-- Wrapper for slides -->
               <div class="carousel-inner">
                 <div class="item active">
-                  <img src="image/cuisine.jpg">
+                  <img src="image/HSF/hsf1.jpg">
                 </div>
 
                 <div class="item">
-                  <img src="image/graphisme.jpg">
+                  <img src="image/HSF/hsf2.jpg">
                 </div>
 
                 <div class="item">
-                  <img src="image/design.jpg">
+                  <img src="image/HSF/hsf3.jpg">
                 </div>
               </div>
 
@@ -198,20 +201,50 @@
                 <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel2" data-slide-to="1"></li>
                 <li data-target="#myCarousel2" data-slide-to="2"></li>
+                <li data-target="#myCarousel2" data-slide-to="3"></li>
+                <li data-target="#myCarousel2" data-slide-to="4"></li>
+                <li data-target="#myCarousel2" data-slide-to="5"></li>
+                <li data-target="#myCarousel2" data-slide-to="6"></li>
+                <li data-target="#myCarousel2" data-slide-to="7"></li>
+                <li data-target="#myCarousel2" data-slide-to="8"></li>
               </ol>
 
         <!-- Wrapper for slides -->
               <div class="carousel-inner">
                 <div class="item active">
-                  <img src="image/cuisine.jpg">
+                  <img src="image/RTE/rte11.jpg">
                 </div>
 
                 <div class="item">
-                  <img src="image/graphisme.jpg">
+                  <img src="image/RTE/rte12.jpg">
                 </div>
 
                 <div class="item">
-                  <img src="image/design.jpg">
+                  <img src="image/RTE/rte8.jpg">
+                </div>
+
+                <div class="item">
+                  <img src="image/RTE/rte2.jpg">
+                </div>
+
+                <div class="item">
+                  <img src="image/RTE/rte10.jpg">
+                </div>
+
+                <div class="item">
+                  <img src="image/RTE/rte14.jpg">
+                </div>
+
+                <div class="item">
+                  <img src="image/RTE/rte6.jpg">
+                </div>
+
+                <div class="item">
+                  <img src="image/RTE/rte4.jpg">
+                </div>
+
+                <div class="item">
+                  <img src="image/RTE/rte13.jpg">
                 </div>
               </div>
 
@@ -243,15 +276,23 @@
       </div>
     </section>
 
+    <section class="suivant">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <a href="contact.html">Suivant <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </section>
+
 	<footer>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-12 text-center">
+          <div class="col-md-4 col-md-offset-4 text-center">
             <div class="social_network">
-              <a href="">
+              <a href="https://www.facebook.com/sharer/sharer.php?u=URLENCODED&t=TITLE" class="share facebook" data-network="facebook">
                 <i class="fa fa-facebook social_net " aria-hidden="true"></i>
               </a>
-              <a href="">
+              <a href="https://twitter.com/share?url=URLENCODED&text=TITLE" class="share twitter" data-network="twitter">
                 <i class="fa fa-twitter social_net " aria-hidden="true"></i>
               </a>
             </div>
@@ -260,6 +301,10 @@
             © Copyright 2017 - ABR Colombes <a href="#" class="active">FR </a>
               <a href="#">EN</a>
             </p>
+          </div>
+          <div class="col-md-4 text-right">
+            <img src="image/Logo-QUALIBAT.png" style="width: 20%; margin-right: 1%" title="Nous avons la certification d'une qualité irréprochable">
+            <img src="image/Logo-QUALIBAT-RGE.png" style="width: 20%" title="Nous travaillons en respectant l'environnement">
           </div>
         </div>
       </div>

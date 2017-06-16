@@ -57,87 +57,6 @@ section.section1 a:hover{
 	-webkit-border-radius: 25px 25px 25px;
 }
 
-/**********SECTION 2***********/
-
-section.section2{
-	background-color: #2d689a;
-	padding-bottom: 10px;
-}
-
-section.section2 img{
-	margin-bottom: 20px;
-}
-
-/*******Row 1******/
-
-section.section2 h3{
-	color: white;
-	text-shadow: black 1px 1px 1px;
-	-moz-text-shadow: black 1px 1px 1px;
-	-webkit-text-shadow: black 1px 1px 1px;
-}
-
-/*******Row 2*****/
-
-section.section2 div.row2 a{
-	text-decoration: none;
-}
-
-section.section2 div.row1 h3{
-	margin-bottom: 30px;
-}
-
-section.section2 div.row2 img{
-	width: 250px;
-	height: 150px;
-	border-radius: 10px 10px 10px;
-	-moz-border-radius: 10px 10px 10px;
-	-webkit-border-radius: 10px 10px 10px;
-	cursor: pointer;
-    transition: 0.3s;
-}
-
-section.section2 div.row2 img:hover {
-    -moz-transform: scale(1.2, 1.2);
-    -webkit-transform: scale(1.2, 1.2);
-    transform: scale(1.2, 1.2);
-}
-
-/**********SECTION 3***********/
-
-section.section3 {
-	background-color: rgba(221, 221, 221, 0.56);
-	padding: 25px 10px;
-}
-
-section.section3 a{
-	font-size: 18px;
-	margin: 20px 0px;
-	background-color: #2e6da4;
-	color: white;
-	border: 3px solid #2e6da4;
-	padding: 5px 8px;
-	border-radius: 10px 10px 10px;
-	-moz-border-radius: 10px 10px 10px;
-	-webkit-border-radius: 10px 10px 10px;
-	transition: .4s;
-}
-
-section.section3 a:hover{
-	background-color: white;
-	color: #2e6da4;
-	border: 3px solid #2e6da4;
-	transition: .4s;
-	padding: 5px 8px;
-	border-radius: 25px 25px 25px;
-	-moz-border-radius: 25px 25px 25px;
-	-webkit-border-radius: 25px 25px 25px;
-}
-
-section.section3 p.prestation{
-	font-size: 15px;
-}
-
 /**********SECTION 4***********/
 
 section.section4 {
@@ -243,6 +162,58 @@ section.section5 li{
 }
 
 section.section5 input.envoyer{
+	margin-top: 10px;
+	margin-left: 80px;
+}
+
+/**********SECTION 6***********/
+
+section.section6 {
+	background-color: rgba(221, 221, 221, 0.56);
+	padding: 25px 10px;
+	text-align: right;
+}
+
+section.section6 .col-md-6{
+	width: 100%;
+}
+
+section.section6 h2{
+    text-align: center;
+}
+
+section.section6 div.carousel{
+	width: 90%;
+	margin-left: 5%;
+}
+
+section.section6 div.carousel img{
+	width: 100%;
+	height: 225px;
+}
+
+section.section6 textarea{
+	border-radius: 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px;
+}
+
+section.section6 div.label{
+	
+}
+
+section.section6 div.label li{
+	margin-bottom: 1px;
+	text-align: right;
+}
+
+
+
+section.section6 li{
+	list-style-type: none;
+}
+
+section.section6 input.envoyer{
 	margin-top: 10px;
 	margin-left: 80px;
 }

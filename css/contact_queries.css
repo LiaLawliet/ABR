@@ -1,0 +1,42 @@
+@media all and (min-width: 1280px;){
+
+}
+
+@media all and (min-width: 1224px;) and (max-width:1279px){
+
+}
+
+
+@media all and (max-width:768px){
+	.long{
+		width: 100% !important;
+	}
+
+	#map{
+		width: 240px !important;
+		height: 240px !important;
+		align-content: center;
+	}
+
+	aside ul{
+		font-size: 15px;
+	}
+
+	section.section1 h3{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	div.row1 {
+		text-align: center;
+	}
+}
+
+
+@media all and (min-width: 400px) and (max-width:767px){
+	
+}
+
+@media all and (max-width:430px){
+	
+}

@@ -5,19 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Design School - Formulaires</title>
+    <title>ABR - Contact</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MY CSS -->
     <link type="text/css" rel="stylesheet" href="css/queries.css"/>
-    <link type="text/css" rel="stylesheet" href="css/formulaire_queries.css"/>
+    <link type="text/css" rel="stylesheet" href="css/contact_queries.css"/>
     <link type="text/css" rel="stylesheet" href="css/global.css"/>
     <link type="text/css" rel="stylesheet" href="css/contact.css"/>
 
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"/>
+
+    <!-- GOOGLE FONT -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
     <!-- JQUERY -->
@@ -51,12 +53,15 @@
                 </li>
               </ul>
             </nav>
-            <select class="form-control">
-              <option><a href="index.html">Acceuil</a></option>
-              <option><a href="services.html">Services proposés</a></option>
-              <option><a href="travaux.html">Travaux réalisés</a></option>
-              <option><a href="contact.html">Contact</a></option>
-            </select>
+            <div class="dropdown">
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">MENU</button>
+              <ul class="dropdown-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="services.html">Services proposés</a></li>
+                <li><a href="travaux.html">Travaux réalisés</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -92,11 +97,15 @@
 	    				<br/>
               <a class="envoyer" href="">Envoyer</a>
 	    			</form>
+            <br>
+            <p>Nous sommes disponible sur toute l'agglomération parisienne</p>
+            <br>
+            <img src="image/carte.png"/>
     			</div>
     			<div class="col-md-4">
     				<aside>
     					<ul>
-    						<li>01.02.03.04.05</li>
+    						<li>01 56 05 44 40</li>
     						<li>abr-renov@orange.fr</li>
     						<li>1 rue du Commerce, Colombes</li>
     					</ul>
@@ -114,12 +123,12 @@
 	<footer>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-12 text-center">
+          <div class="col-md-4 col-md-offset-4 text-center">
             <div class="social_network">
-              <a href="">
+              <a href="https://www.facebook.com/sharer/sharer.php?u=URLENCODED&t=TITLE" class="share facebook" data-network="facebook">
                 <i class="fa fa-facebook social_net " aria-hidden="true"></i>
               </a>
-              <a href="">
+              <a href="https://twitter.com/share?url=URLENCODED&text=TITLE" class="share twitter" data-network="twitter">
                 <i class="fa fa-twitter social_net " aria-hidden="true"></i>
               </a>
             </div>
@@ -128,6 +137,10 @@
             © Copyright 2017 - ABR Colombes <a href="#" class="active">FR </a>
               <a href="#">EN</a>
             </p>
+          </div>
+          <div class="col-md-4 text-right">
+            <img src="image/Logo-QUALIBAT.png" style="width: 20%; margin-right: 1%" title="Nous avons la certification d'une qualité irréprochable">
+            <img src="image/Logo-QUALIBAT-RGE.png" style="width: 20%" title="Nous travaillons en respectant l'environnement">
           </div>
         </div>
       </div>

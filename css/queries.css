@@ -1,26 +1,28 @@
 @media all and (min-width:1100px){
-	select{
-		display: none;
-	}
-	header div.select{
-		align-content: right;
-	} 
-}
-
-
-@media all and (max-width:1100px){
-	nav.nav2{
-		display: none;
-	}
-}
-
-
-@media all(min-width: 400px) and (max-width:767px){
-
-}
-
-@media all and (min-width:800px){
 	
+}
+
+
+@media all and (max-width:992px){
+	footer img{
+		display: none;
+	}
+}
+
+@media all and (min-width:768px){
+	header .dropdown{
+		display: none !important;
+	}
+
+}
+
+@media all and (max-width:767px){
+	header .nav{
+		display: none !important;
+	}
+	header{
+		height: 50px;
+	}
 }
 
 @media all and (max-width:430px){
@@ -30,15 +32,11 @@
 	i.social_net{
 		font-size: 21px !important;
 	}
-	header .nav{
-		display: none !important;
-	}
+	
 }
 
 @media all and (min-width:430px){
-	header select{
-		display: none !important;
-	}
+	
 }
 
 utiliser em au lien de px
